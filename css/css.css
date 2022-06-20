@@ -1,0 +1,100 @@
+.thumbnail {
+
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 3px;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.4);
+    margin: 10px;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.4);
+    cursor: grab;
+
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+#gallery-wrapper {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#gallery-wrapper li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+
+#gallery-wrapper li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+
+
+}
+
+body {
+
+    background-image: url("../resource/bck.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+
+    color: gold;
+    font-size: 100px;
+}
+
+p {
+    padding: 10px;
+
+}
+
+h5 {
+    padding: 10px;
+    color: forestgreen;
+}
+
+section {
+    padding: 10px;
+    margin: 5px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    background: forestgreen;
+    opacity: 0.8;
+    color: white;
+}
