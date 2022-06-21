@@ -1,0 +1,30 @@
+{
+  "photos":
+  [
+    {
+      "src": "byk.jpg",
+      "title": "Býk",
+      "description": "Domáce zviera býk je samec kravy. "
+    },
+    {
+      "src": "krava.jpg",
+      "title": "Krava",
+      "description": "Veľmi užitočné zviera. Ľudia z nej využívajú niejen mlieko, ale aj mäso. Častokrát ju môžete vidieť pásť sa na poli."
+    },
+    {
+      "src": "ovca.jpg",
+      "title": "Ovca",
+      "description": "Ovca  má skvelú kožušinum ktorá sa ďalej spracováva. Dáva mlieko."
+    },
+    {
+      "src": "sliepka.jpg",
+      "title": "Sliepka",
+      "description": "Má perie, ale nelieta. Zato znáša vajíčka, ktoré častokrát môžeš raňajkovať."
+    },
+    {
+      "src": "morka.jpg",
+      "title": "Morka",
+      "description": "Má perie, ale so sliepkou si ju nepomýliš, pretože je oveľa väčšia."
+    }      
+  ]
+}
